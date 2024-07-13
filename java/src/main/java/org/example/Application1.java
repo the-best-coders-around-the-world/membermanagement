@@ -31,6 +31,7 @@ public class Application1 {
                 break;
             case '/':
                 result = calc.divideTwoNumber(num1, num2);
+                break;
         }
         System.out.println("result = " + result);
     }

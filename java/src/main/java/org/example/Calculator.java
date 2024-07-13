@@ -2,8 +2,8 @@ package org.example;
 
 public class Calculator {
 
-    public void divideTwoNumber(int a, int b) {
-        System.out.println("a / b = " + a / b);
+    public int divideTwoNumber(int a, int b) {
+        return a / b;
 
 
     }
